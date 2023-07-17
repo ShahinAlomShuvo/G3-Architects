@@ -1,0 +1,86 @@
+/* Imported Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap");
+
+/* Universal Style  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* style using in body tag  */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common style  */
+
+header {
+  background-color: rgb(255, 244, 230);
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.primaryBtn {
+  border: none;
+  outline: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background-color: rgb(255, 144, 14);
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* navbar related style */
+
+.brandsName {
+  color: #131313;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.navItems ul {
+  display: flex;
+  gap: 30px;
+}
+.navItems ul li {
+  list-style: none;
+}
+.navItems ul li a {
+  color: #424242;
+  text-decoration: none;
+}
+
+/* banner related style  */
+
+.bannerDesc {
+  max-width: 685px;
+  margin: auto;
+  text-align: center;
+}
+.bannerDesc h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
+  padding-top: 50px;
+}
+.bannerDesc p {
+  color: #727272;
+  padding: 15px 0px;
+  font-size: 0.9rem;
+}
+.banner img {
+  width: 100%;
+}
