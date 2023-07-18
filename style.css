@@ -19,7 +19,8 @@ header {
   background-color: rgb(255, 244, 230);
 }
 
-section {
+section,
+footer {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
@@ -227,4 +228,11 @@ section {
 .sponsorImages img {
   width: 150px;
   height: 40px;
+}
+
+.footer {
+  background-color: rgb(255, 244, 230);
+  text-align: center;
+  padding: 40px 0px;
+  border-radius: 2px;
 }
