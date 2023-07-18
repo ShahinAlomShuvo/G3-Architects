@@ -3,6 +3,7 @@
 @media screen and (max-width: 576px) {
   .navItems,
   .teamContainer,
+  .featureContainer,
   .factContainer,
   .sponsorImages {
     flex-direction: column;
@@ -24,12 +25,22 @@
   .sectionHeader {
     padding: 0px 20px;
   }
+
+  .featureImage {
+    padding: 10px;
+  }
+
+  .tenYearsBadge {
+    position: static;
+    margin: auto;
+  }
 }
 
 /* tablet responsive related style  */
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .navItems,
+  .featureContainer,
   .sponsorImages {
     flex-direction: column;
     gap: 40px;
@@ -44,5 +55,12 @@
 
   .sectionHeader {
     padding: 0px 20px;
+  }
+  .featureContent {
+    margin: auto;
+  }
+  .tenYearsBadge {
+    position: static;
+    margin: auto;
   }
 }

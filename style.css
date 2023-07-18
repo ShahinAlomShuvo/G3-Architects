@@ -26,6 +26,7 @@ section {
 
 .container {
   max-width: 1140px;
+  padding: 0px 20px;
   margin: auto;
 }
 
@@ -99,6 +100,7 @@ section {
   display: flex;
   gap: 1.5rem;
   align-items: center;
+  justify-content: space-around;
 }
 
 .teamImages img {
@@ -131,6 +133,54 @@ section {
 .teamDescTitle .feature {
   color: #ff900e;
   font-weight: 700;
+}
+
+/* feature section related style  */
+
+.featureContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.featureContent {
+  max-width: 500px;
+}
+
+.featureCard {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.featureTitle {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+
+.featureImage {
+  position: relative;
+}
+.featureImage img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.tenYearsBadge {
+  background-color: #ff900e;
+  color: #fff;
+  width: 280px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px 0px;
+  position: absolute;
+  bottom: -60px;
+  left: -70px;
+}
+
+.tenYearsBadge h3 {
+  font-size: 2.5rem;
 }
 
 /* fact section related style  */
