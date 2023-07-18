@@ -1,11 +1,32 @@
-/* responsive related style  */
+/* mobile responsive related style  */
 
 @media screen and (max-width: 576px) {
+  .navItems,
+  .teamContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .navItems ul {
+    gap: 15px;
+  }
+
+  .teamImages {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* tablet responsive related style  */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
   .navItems {
     flex-direction: column;
     gap: 40px;
   }
   .navItems ul {
     gap: 15px;
+  }
+
+  .teamContainer {
+    flex-direction: column-reverse;
   }
 }

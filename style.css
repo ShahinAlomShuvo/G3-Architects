@@ -19,10 +19,13 @@ header {
   background-color: rgb(255, 244, 230);
 }
 
+section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .container {
   max-width: 1140px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: auto;
 }
 
@@ -34,7 +37,13 @@ header {
   background-color: rgb(255, 144, 14);
   color: #fff;
   font-size: 1rem;
-  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.descText {
+  color: #727272;
+  padding: 15px 0px;
+  font-size: 0.9rem;
 }
 
 /* navbar related style */
@@ -76,11 +85,49 @@ header {
   color: #131313;
   padding-top: 50px;
 }
-.bannerDesc p {
-  color: #727272;
-  padding: 15px 0px;
-  font-size: 0.9rem;
-}
+
 .banner img {
   width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* team section related style  */
+
+.teamContainer {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.teamImages img {
+  width: 100%;
+}
+
+.teamImages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.teamDesc {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 550px;
+}
+
+.teamDescTitle {
+  font-size: 2.8rem;
+}
+
+.teamDescTitle .quickList {
+  color: #727272;
+  font-weight: 500;
+}
+.teamDescTitle .ofOur {
+  font-weight: 600;
+}
+.teamDescTitle .feature {
+  color: #ff900e;
+  font-weight: 700;
 }
