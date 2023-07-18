@@ -2,7 +2,9 @@
 
 @media screen and (max-width: 576px) {
   .navItems,
-  .teamContainer {
+  .teamContainer,
+  .factContainer,
+  .sponsorImages {
     flex-direction: column;
     gap: 40px;
   }
@@ -13,12 +15,22 @@
   .teamImages {
     grid-template-columns: 1fr;
   }
+
+  .factContainer {
+    padding: 0px 20px;
+  }
+
+  .sponsorHeader,
+  .sectionHeader {
+    padding: 0px 20px;
+  }
 }
 
 /* tablet responsive related style  */
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .navItems {
+  .navItems,
+  .sponsorImages {
     flex-direction: column;
     gap: 40px;
   }
@@ -28,5 +40,9 @@
 
   .teamContainer {
     flex-direction: column-reverse;
+  }
+
+  .sectionHeader {
+    padding: 0px 20px;
   }
 }

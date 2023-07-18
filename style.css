@@ -20,7 +20,7 @@ header {
 }
 
 section {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -48,7 +48,8 @@ section {
 
 /* navbar related style */
 
-.brandsName {
+.brandsName,
+.sectionTitle {
   color: #131313;
   font-size: 2rem;
   font-weight: 700;
@@ -130,4 +131,50 @@ section {
 .teamDescTitle .feature {
   color: #ff900e;
   font-weight: 700;
+}
+
+/* fact section related style  */
+
+.factContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.factCard {
+  border: 1px solid rgb(255, 144, 14);
+  text-align: center;
+  padding: 25px 20px;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #727272;
+}
+
+.cardStats {
+  font-size: 2.5rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* sponsors section related style  */
+
+.sponsorHeader {
+  text-align: center;
+}
+
+.sponsorImages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sponsorImages img {
+  width: 150px;
+  height: 40px;
 }
